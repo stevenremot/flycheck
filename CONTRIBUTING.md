@@ -1,23 +1,83 @@
 # Contribution guidelines #
 
-If you discovered bugs and issues, have ideas for improvements or new features,
-or want to contribute a new syntax checker, please report to the
-[issue tracker][] the repository and send a pull request, but respect the
-following guidelines.
+Thank you very much for your interest in contributing to Flycheck!  We’d like to
+warmly welcome you in the Flycheck community, and hope that you enjoy your time
+with us!
+
+There are many ways to contribute to Flycheck, and we appreciate all of them.
+We hope that this document helps you to contribute.  If you have questions,
+please ask on our [issue tracker][] or in our [Gitter chatroom][gitter].
+
+Please note that all contributors are expected to follow our
+[Code of Conduct][coc].
 
 [issue tracker]: https://github.com/flycheck/flycheck/issues
+[gitter]: https://gitter.im/flycheck/flycheck
+[coc]: http://www.flycheck.org/conduct.html
 
-## Reporting issues ##
+## Bug reports ##
 
-Please report issues to the [issue tracker][].
+Bugs are a sad reality in software, but we strive to have as few as possible in
+Flycheck.  Please liberally report any bugs you find.  If you are not sure
+whether something is a bug or not, please report anyway.
 
-* Check that the issue has not already been reported.
-* Check that the issue has not already been fixed in the latest code.
-* Check that your setup is fine with `M-x flycheck-verify-setup`.
-* Be clear and precise (do not prose, but name functions and commands exactly).
-* Include the version of Flycheck as shown by `M-x flycheck-version`.
-* Open an issue with a clear title and description in grammatically correct,
-  complete sentences.
+If you have the chance and time please [search existing issues][issues], as it’s
+possible that someone else already reported your issue.  Of course, this doesn’t
+always work, and sometimes it’s very hard to know what to search for, so this is
+absolutely optional.  We definitely don’t mind duplicates, please report
+liberally.
+
+To open an issue simply fill out the [issue form][].  To help us fix the issue,
+include as much information as possible.  In doubt, better include too much than
+too little.  Here’s a list of facts that are important:
+
+* What you did, and what you expected to happen instead
+* Your Flycheck setup from `M-x flycheck-verify-setup`
+* Your operating system
+* Your Emacs version from `M-x emacs-version`
+* Your Flycheck version from `M-x flycheck-version`
+
+[issues]: https://github.com/flycheck/flycheck/issues?utf8=✓&q=is%3Aissue
+[issue form]: https://github.com/flycheck/flycheck/issues/new
+
+## Feature requests ##
+
+TODO
+
+## Pull requests ##
+
+Pull Requests are the primary mechanism to submit your own changes to Flycheck.
+Github provides [great documentation][pull-requests] about Pull Requests.
+
+Please make your pull requests against the `master` branch.
+
+TODO: How to test!
+
+All pull requests are reviewed by a [maintainer][maintainers].  Feel free to
+mention individual developers (e.g. @lunaryorn) to request a review from a
+specific person, or @flycheck/maintainers if you have general questions or if
+your pull request was waiting for review too long.
+
+Additionally, all pull requests go through automated tests on
+[Travis CI][travis-prs] which check code style, run unit tests, etc.  After the
+pull request was reviewed and if all tests passed a maintainer will eventually
+cherry-pick or merge your changes and close the pull request.
+
+[pull-requests]: https://help.github.com/articles/using-pull-requests/
+[travis-prs]: https://travis-ci.org/flycheck/flycheck/pull_requests
+[maintainers]: http://www.flycheck.org/people.html#maintainers
+[Rake]: http://docs.seattlerb.org/rake/
+[bundler]: http://bundler.io/
+
+### Commit guidelines ###
+
+## Writing documentation ##
+
+## Out of tree contributions ##
+
+## Issue management ##
+
+----
 
 ## Contributing code ##
 
